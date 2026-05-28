@@ -231,3 +231,6 @@ data/*
 # Ignore temporary or large Tableau files if any are generated
 *.twb
 !*.twbx
+
+# Ignore project brief PDFs
+Notes.pdf
