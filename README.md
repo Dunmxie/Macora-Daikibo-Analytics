@@ -123,10 +123,10 @@ Daikibo Industrials experienced recurring, undocumented production drops across 
 ### 🖥️ Dashboard Interface
 
 #### Global Enterprise View
-![Global Dashboard](assets/screenshots/dashboard-global-view.png)
+![Global Dashboard](assets/dashboard-global-view.png)
 
 #### Drill-Down Matrix: Seiko Facility Focus
-![Seiko Filter](assets/screenshots/dashboard-seiko-filter.png)
+![Seiko Filter](assets/dashboard-seiko-filter.png)
 
 
 ---
