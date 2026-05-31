@@ -43,25 +43,20 @@ graph TD
     ROOT[Macora-Daikibo-Analytics/]:::root
     
     %% Main Branches
-    ROOT --> DATA[data/]:::folder
     ROOT --> DOCS[docs/]:::folder
     ROOT --> ASSETS[assets/]:::folder
     ROOT --> README[README.md]:::file
     
-    %% Data Sub-tree
-    DATA --> D1[daikibo-telemetry-data.json<br/><i>Raw IoT telemetry — 58MB</i>]:::file
-    DATA --> D2[Task_2_Equality_Table_Classified.xlsx<br/><i>Classified pay equality table</i>]:::file
-    
     %% Docs Sub-tree
-    DOCS --> DO1[phase-0-data-reconnaissance.md<br/><i>Pre-analysis data mapping</i>]:::file
-    DOCS --> DO2[phase-1-tableau-analysis.md<br/><i>Tableau build + operational findings</i>]:::file
-    DOCS --> DO3[phase-2-equality-analysis.md<br/><i>Pay equality classification + insights</i>]:::file
+    DOCS --> DO1[data-audit-log.md<br/><i>Pre-analysis data mapping</i>]:::file
+    DOCS --> DO2[data-reconnaissance.md<br/><i>Pre-analysis data mapping</i>]:::file
+    DOCS --> DO3[downtime-analysis.md<br/><i>Tableau build + operational findings</i>]:::file
+    DOCS --> DO4[equality-analysis.md<br/><i>Pay equality classification + insights</i>]:::file
     
     %% Assets Sub-tree
-    ASSETS --> SH[screenshots/]:::folder
-    SH --> S1[dashboard-global-view.png]:::asset
-    SH --> S2[dashboard-seiko-filter.png]:::asset
-    SH --> S3[dashboard-shenzhen-filter.png]:::asset
+    ASSETS --> A1[dashboard-global-view.png]:::asset
+    ASSETS --> A2[dashboard-seiko-filter.png]:::asset
+    ASSETS --> A3[dashboard-shenzhen-filter.png]:::asset
 ```
 ## 🔍 Workstream 1 — Factory Telemetry & Downtime Analysis
 
