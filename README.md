@@ -148,7 +148,7 @@ Daikibo Industrials experienced recurring, undocumented production drops across 
 
 ### 🖥️ Dashboard Interface
 
-> 🔗 **[View Live Interactive Dashboard on Tableau Public](https://public.tableau.com/authoring/DeloitteAustrailiaDAInternship/Dashboard1#1)**
+> 🔗 **[View Live Interactive Dashboard on Tableau Public](https://public.tableau.com/views/DeloitteAustrailiaDAInternship/Dashboard1)**
 
 #### Global Enterprise View
 ![Global Dashboard](assets/dashboard-global-view.png)
