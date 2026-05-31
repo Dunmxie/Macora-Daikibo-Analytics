@@ -217,16 +217,8 @@ __marimo__/
 # Streamlit
 .streamlit/secrets.toml
 
-# Ignore raw datasets inside the data folder
-data/*
-
-# BUT do not ignore the hidden .gitkeep files so the folders stay on GitHub
-!data/.gitkeep
-!models/.gitkeep
-!notebooks/.gitkeep
-!artifacts/.gitkeep
-!visuals/.gitkeep
-!docs/.gitkeep
+# Ignore the dataset and other raw heavy files
+data/
 
 # Ignore temporary or large Tableau files if any are generated
 *.twb
